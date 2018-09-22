@@ -1,0 +1,45 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class CalculoSalario {
+	public static void main(String[] args) {
+		System.out.println("Vamos decobrir como fica o valor líquido do seu salário, descontando INSS e IR");
+
+		Scanner teclado1 = new Scanner(System.in);
+		System.out.println("Digite seu salário:");
+		double salario = Double.parseDouble(teclado1.nextLine());
+		double inss = (11.0 / 100);
+		double irenda = 1;
+
+		if (salario >= 1800 && salario < 2300) {
+			irenda = (7.5 / 100);
+		}
+		if (salario >= 2300 && salario < 3600) {
+			irenda = (24 / 100);
+		}
+		if (salario >= 3600) {
+			irenda = (32 / 100);
+		}
+
+		double liquido = ((salario * inss) * irenda);
+		liquido = salario - liquido;
+
+		if (irenda == 1) {
+			irenda = 0;
+		}
+
+		System.out.printf("");
+		System.out.printf("Seu salário bruto é: ");
+		System.out.printf("");
+		System.out.printf("salário  %s. \n", salario);
+		System.out.printf("");
+		System.out.printf("INSS  %s %s \n", (inss * 100), "%");
+		System.out.printf("IR  %s %s \n", (irenda * 100), "%");
+		System.out.printf("Seu salário é  %s. \n", liquido);
+
+		teclado1.close();
+
+	}
+
+}

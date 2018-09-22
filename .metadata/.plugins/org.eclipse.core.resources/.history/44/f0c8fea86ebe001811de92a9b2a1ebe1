@@ -1,0 +1,43 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class AreaPerimetroRetangulo{
+	
+	public static void main(String[] args){
+		System.out.println("Vamos calcular a área e perímetro de um retângulo");
+		
+		Scanner teclado1 = new Scanner(System.in);
+		System.out.println("Insira a altura, em cm (somente números)");
+		double altura = Double.parseDouble(teclado1.nextLine());
+		System.out.printf("A primeira nota informada foi %s cm . \n",altura);
+		
+		
+		Scanner teclado2 = new Scanner(System.in);
+		System.out.println("Insira o comprimento, em cm (somente números)");
+		double comprimento = Double.parseDouble(teclado2.nextLine());
+		System.out.printf("A primeira nota informada foi %s cm . \n",comprimento);
+
+				
+		System.out.println("");
+		
+		System.out.println("O perímetro do retangulo é:");
+		
+		double perimetro = (altura + comprimento);	
+
+		System.out.println(perimetro);
+
+		System.out.println("");
+		
+		System.out.println("a area do retangulo é:");
+		
+		double area = (altura * comprimento);	
+
+		System.out.println(area);
+
+		teclado1.close();
+		teclado2.close();
+
+	}
+	
+}

@@ -1,0 +1,25 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class TempoDias {
+	public static void main(String[] args) {
+		System.out.println("Vamos calcular quantos tempo equivale uma quantidade de dias");
+
+		Scanner teclado1 = new Scanner(System.in);
+		System.out.println("Insira uma quantidade de dias");
+		int dias = Integer.parseInt(teclado1.nextLine());
+
+		int ano = dias / 360;
+		int mess = dias - (360 * ano);
+		int mes = mess / 30;
+		int dia = dias % mes;
+		
+		System.out.println("");
+		System.out.printf("Você já viveu: " + ano + " anos, "+ mes + " meses, "+ dia + " dias.");
+
+		teclado1.close();
+
+	}
+
+}

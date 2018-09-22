@@ -1,0 +1,22 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class ParImpar {
+	public static void main(String[] args) {
+		System.out.println("Insira um número para saber se ele é PAR ou IMPAR");
+
+		Scanner teclado1 = new Scanner(System.in);
+		int valor = Integer.parseInt(teclado1.nextLine());
+		System.out.printf("A número digitado foi %s. \n", valor);
+
+		if ((valor % 2) != 0) {
+			System.out.println("SEU NÚMERO É IMPAR!");
+		} else {
+			System.out.println("SEU NÚMERO É PAR!");
+		}
+
+		teclado1.close();
+
+	}
+}

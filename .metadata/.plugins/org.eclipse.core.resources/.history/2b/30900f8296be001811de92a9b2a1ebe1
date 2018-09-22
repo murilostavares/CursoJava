@@ -1,0 +1,32 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class CategoriaIdade {
+	public static void main(String[] args) {
+		System.out.println("Vamos descobrir em qual categoria você se encaixa");
+
+		Scanner teclado1 = new Scanner(System.in);
+		System.out.println("Digite sua idade");
+		int idade = Integer.parseInt(teclado1.nextLine());
+		System.out.printf("Sua idade é  %s. \n", idade);
+		System.out.printf("");
+		System.out.printf("Você se encaixa na categoria:");
+		System.out.printf("");
+		
+		if (idade >= 18) {
+			System.out.println("ADULTO");
+		} else if (idade >= 14) {
+			System.out.println("JUVENIL");
+		} else if (idade >= 12) {
+			System.out.println("INFANTO JUVENIL");
+		} else if (idade >= 9) {
+			System.out.println("INFANTIL");
+		} else if (idade < 9) {
+			System.out.println("MIRIM");
+		}
+
+		teclado1.close();
+	}
+
+}

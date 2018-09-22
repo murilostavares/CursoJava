@@ -1,0 +1,33 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+
+public class MediaNotas {
+	public static void main(String[] args){
+		System.out.println("Insira 3 notas para que seja calculada a média");
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Insira a primeira nota");
+		String nome = teclado.nextLine();
+		System.out.printf("O valor informado foi %s \n",nome);
+		Scanner teclado1 = new Scanner(System.in);
+		System.out.println("Insira a segunda nota");
+		String nome1 = teclado1.nextLine();
+		System.out.printf("O valor informado foi %s \n",nome1);
+		Scanner teclado2 = new Scanner(System.in);
+		System.out.println("Insira a terceira nota");
+		String nome2 = teclado2.nextLine();
+		System.out.printf("O nome informado foi %s \n",nome2);
+
+		
+		
+		
+		
+		
+		
+		teclado.close();
+		teclado1.close();
+		teclado2.close();
+	}
+	
+}
