@@ -17,12 +17,12 @@ public class RepitaJava {
 			int col = 0;
 			while (col++ <= marcador) {
 
-				System.out.println(" " + nome);
+				System.out.print(" " + nome);
 			}
 			marcador++;
 			System.out.println(" ");
 		}
-
+		teclado.close();
 	}
 
 }

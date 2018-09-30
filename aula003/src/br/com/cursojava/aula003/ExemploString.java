@@ -60,11 +60,10 @@ public class ExemploString {
 		String palavra = "sábado";
 		int indice = curso.toLowerCase().indexOf(palavra.toLowerCase());
 		System.out.println(indice);
-		
-		
-		//charAt
-		//Retorna o caracter inserido na posição da String
-		
+
+		// charAt
+		// Retorna o caracter inserido na posição da String
+
 		System.out.println(curso.charAt(10));
 		System.out.println(curso.charAt(11));
 		System.out.println(curso.charAt(12));
@@ -72,47 +71,36 @@ public class ExemploString {
 		System.out.println(curso.charAt(14));
 		System.out.println("");
 		System.out.println("");
-		
-		//Exemplo
+
+		// Exemplo
 		String user1 = "João";
 		String user2 = "João";
 		String user3 = new String("João");
-		//compara memória RIP, mas os Strings tem um Pool de String para a mesma String. Que é imutavel
+		// compara memória RIP, mas os Strings tem um Pool de String para a mesma
+		// String. Que é imutavel
 		System.out.println(user1 == user2);
 		System.out.println(user1 == user3);
-		//Compara a identidade (Caracteres)
+		// Compara a identidade (Caracteres)
 		System.out.println(user1.equals(user2));
 		System.out.println(user1.equals(user3));
-		//IgnoreCase
+		// IgnoreCase
 		System.out.println(user1.equalsIgnoreCase("JOÃO"));
 		System.out.println("joão".equalsIgnoreCase("JOÃO"));
-		
-		//metodo trim Remove os espaços antes e depois do texto
+
+		// metodo trim Remove os espaços antes e depois do texto
 		String texto = "   oi pessoal   ";
-		
-		
-		//metodo trim Remove os espaços antes e depois do texto. Muito usado
-		System.out.printf(">%s< , length = %d\n",texto,texto.length());
-		System.out.printf(">%s< , length = %d\n",texto.trim(), texto.trim().length());
-		
-		
-		//metodo split organiza e quebra o texteo conforme o "separador" indicado.
+
+		// metodo trim Remove os espaços antes e depois do texto. Muito usado
+		System.out.printf(">%s< , length = %d\n", texto, texto.length());
+		System.out.printf(">%s< , length = %d\n", texto.trim(), texto.trim().length());
+
+		// metodo split organiza e quebra o texteo conforme o "separador" indicado.
 		String registro = "contato;contato@teste.com;33221100";
 		String[] valores = registro.split(";");
 		System.out.println(valores[0]);
 		System.out.println(valores[1]);
 		System.out.println(valores[2]);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

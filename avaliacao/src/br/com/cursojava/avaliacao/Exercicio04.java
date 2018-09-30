@@ -1,9 +1,8 @@
-package avaliacao;
+package br.com.cursojava.avaliacao;
+//Escreva um programa que calcula a soma dos primeiros 50 números inteiros
 
-public class SomaNumerosInteiros {
-
+public class Exercicio04 {
 	public static void main(String[] args) {
-
 		System.out.println("Vamos verificar a soma dos primeiros 50 números inteiros.");
 		System.out.println("");
 
