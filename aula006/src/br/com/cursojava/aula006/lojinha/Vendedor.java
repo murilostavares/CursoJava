@@ -26,6 +26,7 @@ public class Vendedor extends Funcionario {
 		this.totalVendasMes = totalVendasmes;
 	}
 
+	@Override
 	public double getSalarioLiquido() {
 		double comissao = totalVendasMes * percentualComissao;
 		double salarioBruto = this.getSalarioBase() + comissao;

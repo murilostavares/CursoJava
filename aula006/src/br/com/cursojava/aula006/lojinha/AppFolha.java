@@ -18,6 +18,9 @@ public class AppFolha {
 		folha.imprimir(func);
 		folha.imprimir(vend);
 
+		//Funcionario funcVend = new Vendedor(); // (CERTO)
+		// Vendedor vendFunc = new Funcionario(); (ERRADO)
+
 	}
 
 }

@@ -33,6 +33,58 @@
 //
 //
 // Usar anotação "@Override" sinaliza as sobreescrições
+//-----------------------------------------------------------------------------------------------------------------------------
+// Diagrama de Classes
+//
+//
+//			 _______________________________
+//			|NOME DA CLASSE Ex: Pessoa		|
+//			|								|
+//			|_______________________________|
+//			|								|
+//			|PROPRIEDADES					|
+//			|	- Nome: String				|
+//			|	- Idade: Int				|
+//			|_______________________________|
+//			|								|
+//			|METODOS:						|
+//			|	+ Comer: Void				|
+//			|	+ Andar (Passos:int):Void	|
+//			|								|
+//			|_______________________________|
+//
+//
+//
+//+ PUBLICO
+//- PRIVADO
+//~ DEFAULT (PACKAGE)
+//# PROTECT
+//
+
+
+
+// FELIPEDAROSAOLIVEIRA (GITHUB)
+
+
+
+/*método abstrato!
+ * 
+ * public abstract void
+ * 
+ * Não é necessario corpo
+ * Para um método abstrato é necessário que a classe seja abstrata.
+ * Não pode mais instanciar a classe direto.
+ * Tem que instacniar uma public 
+ * Tem sempre que sobrescrever um abstract no herança
+ * 
+ * 
+ * INTERFACE!
+ * 
+ * "Class", com métodos 100% abstratos;
+ * extends + implements
+ * 
+ * 
+ */
 
 
 
