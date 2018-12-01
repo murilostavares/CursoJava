@@ -1593,7 +1593,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2018-09-22 08:13:42.127 -----------------------------------------------
+!SESSION 2018-12-01 09:08:33.538 -----------------------------------------------
 eclipse.buildId=4.6.2.M20161124-1400
 java.version=1.8.0_161
 java.vendor=Oracle Corporation
@@ -1601,10 +1601,10 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 2 2018-09-22 08:15:02.827
+!ENTRY org.eclipse.ui 2 2 2018-12-01 09:11:45.342
 !MESSAGE Perspective with name 'C/C++' and id 'org.eclipse.cdt.ui.CPerspective' has been made into a local copy
 
-!ENTRY org.eclipse.core.runtime 4 0 2018-09-22 08:15:03.279
+!ENTRY org.eclipse.core.runtime 4 0 2018-12-01 09:11:48.789
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif
 !STACK 0
 java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif".
@@ -1708,7 +1708,7 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
-!ENTRY org.eclipse.jface 4 0 2018-09-22 08:15:03.310
+!ENTRY org.eclipse.jface 4 0 2018-12-01 09:11:48.820
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif".
 !STACK 0
 java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif".
@@ -1816,7 +1816,7 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
-!ENTRY org.eclipse.core.runtime 4 0 2018-09-22 08:15:03.310
+!ENTRY org.eclipse.core.runtime 4 0 2018-12-01 09:11:48.820
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif
 !STACK 0
 java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif".
@@ -1921,162 +1921,698 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.cdt
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
-!ENTRY org.eclipse.egit.ui 2 0 2018-09-22 08:15:03.778
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-01 09:11:49.694
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\paulo'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.488
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.660
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.codan.internal.ui.views.ProblemDetails' id and the 'Problem Details' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.494
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.722
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.debug.ui.executablesView' id and the 'Executables' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.499
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.722
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.debug.ui.SignalsView' id and the 'Signals' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.503
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.738
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser' id and the 'Memory Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.508
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.738
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view' id and the 'Trace Control' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.513
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.738
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.dsf.gdb.ui.osresources.view' id and the 'OS Resources' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.518
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.753
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.dsf.debug.ui.disassembly.view' id and the 'Disassembly' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.523
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.753
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.make.ui.views.MakeView' id and the 'Make Target' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.527
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.753
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.ui.CView' id and the 'C/C++ Projects' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.532
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.769
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.ui.IndexView' id and the 'C/C++ Index' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.536
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.769
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.ui.includeBrowser' id and the 'Include Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.540
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.769
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.ui.callHierarchy' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.545
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.784
 !MESSAGE Removing part descriptor with the 'org.eclipse.cdt.ui.typeHierarchy' id and the 'Type Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.550
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.784
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.dataviewers.charts.view' id and the 'Chart View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.554
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.800
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.gcov.view' id and the 'gcov' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.559
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.800
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.gprof.view' id and the 'gprof' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.564
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.800
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.valgrind.ui.valgrindview' id and the 'Valgrind' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.569
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.800
 !MESSAGE Removing part descriptor with the 'org.eclipse.remote.ui.view.connections' id and the 'Connections' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.574
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.816
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.analysis.graph.ui.criticalpath.view.criticalpathview' id and the 'Critical Flow View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.578
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.816
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.lami.views.reportview' id and the 'Analysis Report' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.583
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.816
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.controlflow' id and the 'Control Flow' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.587
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.831
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.resources' id and the 'Resources' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.592
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.831
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.cpuusage' id and the 'CPU Usage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.596
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.831
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.latency' id and the 'System Call Latencies' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.600
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.847
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.latency.scatter' id and the 'System Call Latency vs Time' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.604
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.847
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.ui.views.latency.statsview' id and the 'System Call Latency Statistics' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.609
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.862
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.latency.density' id and the 'System Call Density' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.613
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.862
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.ui.kernelmemoryusageview' id and the 'Kernel Memory Usage View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.617
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.862
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.views.diskioactivity' id and the 'Disk I/O Activity' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.621
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.878
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.internal.lttng2.ui.views.control' id and the 'Control' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.626
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.878
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.lttng2.analysis.vm.ui.vmview' id and the 'Virtual CPU View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.630
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.878
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.lttng2.ust.memoryusage' id and the 'UST Memory Usage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.634
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.894
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.analysis.xml.ui.views.timegraph' id and the 'XML Time Graph View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.639
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.894
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.internal.tmf.analysis.xml.ui.views.xyview' id and the 'XML XY Chart View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.643
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.894
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.latencytable' id and the 'Latency Table' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.648
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.894
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.scattergraph' id and the 'Latency vs Time' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.652
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.913
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.density' id and the 'Latency vs Count' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.657
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.918
 !MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.statistics' id and the 'Latency Statistics' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.661
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.922
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.timechart' id and the 'Time Chart' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.666
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.927
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.ssvisualizer' id and the 'State System Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.671
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.932
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.colors' id and the 'Colors' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.675
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.937
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.filter' id and the 'Filters' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.680
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.942
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.tmfUml2SDSyncView' id and the 'Sequence Diagram' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.684
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.949
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.statistics' id and the 'Statistics' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.688
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.954
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.histogram' id and the 'Histogram' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.693
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.959
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.callstack' id and the 'Call Stack' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-09-22 08:15:05.697
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-01 09:11:51.964
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.synchronization' id and the 'Synchronization' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.jface.text 2 0 2018-09-22 08:18:03.049
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:40:07.175
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
 
-!ENTRY org.eclipse.jface.text 2 0 2018-09-22 08:18:03.053
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:40:07.180
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
 
-!ENTRY org.eclipse.jface.text 2 0 2018-09-22 08:18:03.220
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:40:07.220
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
 
-!ENTRY org.eclipse.jface.text 2 0 2018-09-22 08:18:03.225
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:40:07.224
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:38.013
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:38.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:38.791
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:38.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:39.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:41:39.151
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:45:01.332
+!MESSAGE The POM for org.postgressql:postgresql:jar:9.3-1102-jdbc41 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:45:02.561
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:45:02.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:45:13.282
+!MESSAGE The POM for org.postgressql:postgresql:jar:9.3-1102-jdbc41 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:46:43.899
+!MESSAGE The POM for org.postgressql:postgresql:jar:9.3-1102-jdbc41 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:46:44.001
+!MESSAGE The POM for org.postgressql:postgresql:jar:9.3-1102-jdbc41 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:46:44.034
+!MESSAGE The POM for org.postgressql:postgresql:jar:9.3-1102-jdbc41 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:46:44.375
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:46:44.385
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:33.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:33.636
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:33.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:33.996
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:40.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:48:40.861
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:49:44.223
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:49:44.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:49:58.554
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:49:58.559
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:49:58.708
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 09:49:58.713
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:49:59.206
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:49:59.220
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:50:23.469
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 09:50:23.488
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:06:07.733
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:06:07.748
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:08:47.225
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:08:47.228
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:09:13.727
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:09:13.732
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:10:06.562
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:10:06.603
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2018-12-01 10:11:07.476
+!MESSAGE Failed to resolve selection in ‘=aula009/src<br.com.cursojava.aula009{BancoUtil.java’ at offset 1.211.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:12:21.104
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:12:21.108
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:58:45.718
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:58:45.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:59:13.349
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 10:59:13.353
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:03:25.447
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:03:25.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:18:10.990
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:18:10.994
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:27:23.517
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:27:23.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:30:54.529
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:30:54.533
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:45:30.487
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:45:30.491
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:50:23.090
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 11:50:23.096
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:04:14.097
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:04:14.100
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:09:02.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:09:02.801
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:13:15.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:13:15.127
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:19:44.048
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:19:44.053
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:23:27.705
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:23:27.710
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:24:34.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:24:34.338
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:35:02.303
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:35:02.307
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:41:03.309
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:41:03.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:43:05.045
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:43:05.049
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:44:25.059
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:44:25.065
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:44:54.649
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:44:54.651
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:45:03.205
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 12:45:03.210
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:07:43.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:07:43.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:07:55.575
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:07:55.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:08:59.046
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:08:59.049
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:09:44.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:09:44.172
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:12:59.452
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:12:59.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:13:26.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:13:26.339
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:29:58.179
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:29:58.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:30:29.490
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:30:29.495
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:31:26.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:31:26.144
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:31:57.927
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:31:57.931
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:32:39.990
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:32:39.992
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:00.617
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:00.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:12.670
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:12.675
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:33.362
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:33:33.364
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:34:46.900
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:34:46.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:34:52.840
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:34:52.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:35:20.440
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:35:20.444
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:47:38.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:47:38.278
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:50:09.501
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:50:09.507
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:50:32.683
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:50:32.689
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:51:34.889
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:51:34.894
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:54:13.002
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:54:13.006
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:56:13.560
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 14:56:13.564
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:07:30.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:07:30.396
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:09:56.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:09:56.319
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-12-01 15:15:22.966
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-12-01 15:15:22.973
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:23:20.938
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:23:20.946
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:23:20.982
+!MESSAGE The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:23:21.028
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:53:49.863
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:53:49.866
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:55:03.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 15:55:03.397
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:16:41.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:16:41.071
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:25:40.540
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:25:40.548
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:27:40.725
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:27:40.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:37:23.426
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:37:23.434
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:37:43.929
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:37:43.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 16:38:05.603
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 16:38:05.604
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:38:22.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:38:22.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 16:40:02.186
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-01 16:40:02.187
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:43:34.493
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:43:34.500
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:46:08.016
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:46:08.021
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:51:43.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:51:43.602
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:53:21.757
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:53:21.766
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:53:47.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:53:47.941
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:56:00.805
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:56:00.809
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-12-01 16:57:23.274
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:58:25.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-01 16:58:25.718
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
